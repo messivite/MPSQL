@@ -3,3 +3,4 @@
 * Diðer Veritabanlarý için (MONGO) Class biraz daha iþlevsel hale getirilecek , istenilen sýnýfýn içerisindeki metoda instance ile ulaþýlacak.
 * Config dosyalarý için kullanýlan settings parametreleri YAML dosyasý olarak deðiþtirilebilir.
 * Config Setting ve Getting için özel bir Config sýnýfý yazýlacak.
+* Rollback - Commit - Transaction mantýðý eklenip daha iþlevsel kullanýmý saðlanacak
