@@ -1,0 +1,5 @@
+* Abstract Class mantýðýnda kullanýlan temel functionlar ana sýnýftan extend edilecek.
+* findOne,findAll public static metodlar CUSTOM filter , OPERATOR parametreleri eklenip ilgili Query otomatik oluþturulacak.
+* Diðer Veritabanlarý için (MONGO) Class biraz daha iþlevsel hale getirilecek , istenilen sýnýfýn içerisindeki metoda instance ile ulaþýlacak.
+* Config dosyalarý için kullanýlan settings parametreleri YAML dosyasý olarak deðiþtirilebilir.
+* Config Setting ve Getting için özel bir Config sýnýfý yazýlacak.
