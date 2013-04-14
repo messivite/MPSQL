@@ -11,7 +11,7 @@ try {
      
      
 //     $query = "UPDATE articles SET url=:url WHERE id=:id";
-//     $fields = array(":id"=>1,":url"=>"www.gokhan2.com");
+//     $fields = array(":id"=>1,":url"=>"www.yazarbaz.com");
 //     var_dump(MPSQL::execQuery($query,$fields));
 //     if(MPSQL::execQuery($query,$fields)){
 //         MPSQL::deleteMemcache();
@@ -23,15 +23,12 @@ try {
      print_r($result);
      echo "</pre>";
      //$query = "SELECT * FROM articles WHERE id=:id";   
-     //$uyebilgi = MPSQL::getRow($query,array(':id' => '1'));
-     //print_r($uyebilgi);
+     //$result = MPSQL::getRow($query,array(':id' => '1'));
+     //print_r($result);
      //$result = MPSQL::findOne("articles",$fields);
      //var_dump($result);
      exit;
 } catch (Exception $e) {
     echo 'Caught exception: ',  $e->getMessage(), "\n";
 }
-
-
-//var_dump(MPSQL::findOne("articles"));
 ?>
